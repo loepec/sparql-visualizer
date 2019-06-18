@@ -1,0 +1,1 @@
+export { SPARQLvisualizer } from './SPARQLvisualizer';

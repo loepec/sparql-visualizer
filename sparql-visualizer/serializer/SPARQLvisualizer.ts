@@ -23,7 +23,7 @@ export class SPARQLvisualizer {
         return this;
     }
 
-    public build() {
+    public build(): void {
         this.dataList.forEach((data: Node) => {
             const visElement: HTMLElement = getVisualization(
                 data as HTMLElement,

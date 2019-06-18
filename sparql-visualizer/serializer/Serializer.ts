@@ -6,9 +6,7 @@ export function getVisualization(
     endpoint: WikidataEndpoint,
     visId: VisualisationIdentifier
 ): HTMLElement {
-    const query: string = data.children[0].innerHTML;
     let visElement: HTMLElement;
-
     if (visId === 'Table') {
         visElement = getTable();
     } else {
