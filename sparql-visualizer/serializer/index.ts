@@ -1,1 +1,1 @@
-export { SPARQLvisualizer } from './SPARQLvisualizer';
+export { SPARQLVisualizer } from './SPARQLVisualizer';
